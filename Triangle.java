@@ -16,20 +16,20 @@ public class Triangle {
         return (v1.distanceTo(v2) + v2.distanceTo(v3) + v3.distanceTo(v1));
     }
 
-    public double getArea() {
-
-    }
-
-    public String classify() {
-
-    }
-
-    public String toString() {
-
-    }
-
-    public void setVertex(int index, Point newP) {
-
-    }
+//    public double getArea() {
+//
+//    }
+//
+//    public String classify() {
+//
+//    }
+//
+//    public String toString() {
+//
+//    }
+//
+//    public void setVertex(int index, Point newP) {
+//
+//    }
 
 }

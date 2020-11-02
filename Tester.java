@@ -9,5 +9,10 @@ public class Tester {
         System.out.println(x.getPerimeter());
         System.out.println(x.getArea());
         System.out.println(x.classify());
+        System.out.println(x.toString());
+
+        Point p = new Point(8, 9);
+        x.setVertex(1, p);
+        System.out.println(x.toString());
     }
 }

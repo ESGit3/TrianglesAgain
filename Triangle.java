@@ -34,13 +34,24 @@ public class Triangle {
         }
         return "scalene";
     }
-//
-//    public String toString() {
-//
-//    }
-//
-//    public void setVertex(int index, Point newP) {
-//
-//    }
+
+    public String toString() {
+        String point1 = "v1(" + this.v1.getX() + ", " + this.v1.getY() + ") ";
+        String point2 = "v2(" + this.v2.getX() + ", " + this.v2.getY() + ") ";
+        String point3 = "v3(" + this.v3.getX() + ", " + this.v3.getY() + ") ";
+        return (point1 + point2 + point3);
+    }
+
+    public void setVertex(int index, Point newP) {
+        if (index == 0) {
+            this.v1 = newP;
+        }
+        if (index == 1) {
+            this.v2 = newP;
+        }
+        if (index == 2) {
+            this.v3 = newP;
+        }
+    }
 
 }
